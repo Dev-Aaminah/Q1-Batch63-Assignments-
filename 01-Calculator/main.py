@@ -20,17 +20,17 @@ print("""
         /_/ \_\   |_|  |_|     |___|     |_|\_|   /_/ \_\   |_|  |_|  
 
       """)
-input1_from_user = int(input("Enter first number : "))
-input2_from_user = int(input("Enter second number : "))
+input1_from_user:int = int(input("Enter first number : "))
+input2_from_user:int = int(input("Enter second number : "))
 
 # arithematic operators (+,-,*,/,%,**,//)
-sum = input1_from_user+input2_from_user
-difference = input1_from_user-input2_from_user
-product = input1_from_user*input2_from_user
-quotient = input1_from_user/input2_from_user
-remainder = input1_from_user%input2_from_user
-power = input1_from_user**input2_from_user
-floor_division = input1_from_user//input2_from_user
+sum:int = input1_from_user+input2_from_user
+difference:int = input1_from_user-input2_from_user
+product:int = input1_from_user*input2_from_user
+quotient:int = input1_from_user/input2_from_user
+remainder:int = input1_from_user%input2_from_user
+power:int = input1_from_user**input2_from_user
+floor_division:int = input1_from_user//input2_from_user
 
 
 print(f"Sum of {input1_from_user} and {input2_from_user} is {sum}")
